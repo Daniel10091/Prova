@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial, sans serif;
+	font-size: 18px;
+	background-color: #27a7a7;
+}
+
+
+#menu {
+	background-color: rgba(0, 255, 234, 0.397);
+	line-height: 60px;
+	display: block;
+	width: 100%;
+	position: fixed;
+	text-align: right;
+	font-family: 'Courier New', Courier, monospace;
+}
+#menu a:link, a:visited{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 600;
+	color: #e0fbff;
+	text-shadow: #020fcc 2px 2px 4px;
+	font-size: 20px;
+	padding: 1px;
+}
+#menu li{
+	display: inline;
+	padding: 10px;
+}
+#menu a:hover, a:active{
+	color: #1100ff;
+	background-color: #00a2ff;
+}
+
+
+#banner{
+	background-image: url("../images/3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 980px;
+}
+
+
+#title{
+	margin-top: 1%;
+    color: rgb(200, 229, 255);
+    font-weight: 600;
+	text-shadow: rgb(25, 0, 255) 8px 8px 8px;
+	font-size: 50px;
+    text-align: center;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#subtitle{
+    color: rgb(200, 229, 255);
+    font-weight: 600;
+	text-shadow: rgb(25, 0, 255) 8px 8px 8px;
+	font-size: 30px;
+    text-align: center;
+}
+
+
+#gallery{
+	margin-top: 1%;
+	background-color: rgb(44, 192, 197);
+	height: 800px;
+	font-size: 2.0em;
+	padding: 50px;
+	text-align: center;
+}
+.galeria{
+	width: 350px;
+	height: 250px;
+	border: 2px rgb(211, 255, 255) solid;
+	border-radius: 10px;
+	margin: 20px;
+	box-shadow: rgb(3, 0, 158) 8px 8px 8px;
+}
+
+
+#contacts{
+	background-color: cadetblue;
+	height: 800px;
+	font-size: 2.0em;
+	padding: 50px;
+	text-align: center;
+}
+#contacts label{
+	display: block;
+}
+#contato{
+	color:rgb(28, 230, 213);
+	text-shadow: #0400ff 8px 8px 8px;
+	font-family: 'Courier New', Courier, monospace;
+}
+#inf{
+    font-family: 'Courier New', Courier, monospace;
+	color:rgb(28, 230, 213);
+    text-shadow: #0400ff 8px 8px 8px;
+}
+#contacts input, textarea{
+	text-align: center;
+	width: 400px;
+	height: auto;
+	padding: 5px;
+	font-size: 0.7em;
+	margin-bottom: 10px;
+	color: #0400ff;
+    text-shadow: #00f7ff 1px 1px 5px;
+	background-color: #65e0ff96;
+	border-radius: 5%;
+	border-style:double;
+    font-family:'Courier New', Courier, monospace;
+	border-color: rgb(8, 0, 116);
+}
+#contacts button{
+	font-family: 'Courier New', Courier, monospace;
+	border-radius: 5%;
+	border-style: double;
+	border-color: rgb(8, 0, 116);
+	background-color: #27a7a7;
+	color: #cbf5ff;
+	text-shadow: #0400ff 2px 2px 5px;
+	font-size: 1.0em;
+	text-transform: uppercase;
+	padding: 8px;
+    animation-name: collors;
+    animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes collors {
+    20% {background-color: rgb(0, 4, 255);}
+    20% {background-color: rgb(0, 255, 200);}
+}
+.enviar{
+	width: 400px;
+	border: 2px rgb(211, 255, 255) solid;
+	border-radius: 10px;
+	margin: 20px;
+	box-shadow: rgb(3, 0, 158) 8px 8px 8px;
+}
+
+
+#desvd{
+	color: aliceblue;
+	text-shadow: #080074 2px 2px 5px;
+    background-color: #0782f5;
+    text-align: center;
+}
